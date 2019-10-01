@@ -21,7 +21,7 @@ constructor(props) {
         var toDoEntries = this.props.entries;
         var listItems = toDoEntries.map(this.createTasks);
 
-        return (
+        return ( //comment added to attempt git branch update
             <ul className='theList'>
                 <FlipMove duration={150} easing='ease-out'>
                     {listItems}
